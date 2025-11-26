@@ -82,7 +82,7 @@ O `F1 Macro Score` é a métrica principal, pois considera a precisão e o recal
 🛠️ Como Rodar o Notebook
 -------------------------
 
-O arquivo `Trabalho_Final_Prof_Rogerio.ipynb` contém a implementação e a comparação de três métodos de classificação de texto em LLMs (Zero-Shot, Fine-Tuning e RAG).
+O arquivo `LLM-Text-Classification-Comparison.ipynb` contém a implementação e a comparação de três métodos de classificação de texto em LLMs (Zero-Shot, Fine-Tuning e RAG).
 
 **NOTA:** Para garantir a execução bem-sucedida da etapa de Fine-Tuning e dos componentes de *embeddings* (RAG), é **altamente recomendável usar um ambiente com GPU** (Google Colab ou uma máquina local com setup CUDA) para reduzir drasticamente o tempo de processamento.
 
