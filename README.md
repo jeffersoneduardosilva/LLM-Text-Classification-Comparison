@@ -77,3 +77,84 @@ O `F1 Macro Score` é a métrica principal, pois considera a precisão e o recal
 # Necessário rodar no notebook, idealmente em ambiente com GPU (para Fine-Tuning)
 !pip install transformers datasets sentence-transformers faiss-cpu arxiv accelerate scikit-learn -q
 !pip install --upgrade transformers accelerate datasets -q
+
+🛠️ Como Rodar o Notebook
+O arquivo Trabalho_Final_Prof_Rogerio.ipynb contém a implementação e a comparação de três métodos de classificação de texto em LLMs (Zero-Shot, Fine-Tuning e RAG).
+
+NOTA: Para garantir a execução bem-sucedida da etapa de Fine-Tuning e dos componentes de embeddings (RAG), é altamente recomendável usar um ambiente com GPU (Google Colab ou uma máquina local com setup CUDA) para reduzir drasticamente o tempo de processamento.
+
+💻 Opção 1: Rodar Localmente via VS Code
+Esta opção é ideal se você possui um ambiente Python configurado e, preferencialmente, acesso a uma GPU local.
+
+Pré-requisitos
+Python: Tenha o Python (3.8+) instalado.
+
+VS Code: Tenha o Visual Studio Code instalado.
+
+Extensões do VS Code: Instale as seguintes extensões:
+
+Jupyter
+
+Python
+
+Passos de Execução
+Configurar Ambiente Virtual (Recomendado):
+
+Bash
+
+python -m venv venv
+# Ativar no macOS/Linux:
+source venv/bin/activate
+# Ativar no Windows:
+.\venv\Scripts\activate
+Abrir e Conectar o Kernel:
+
+Abra o arquivo Trabalho_Final_Prof_Rogerio.ipynb no VS Code.
+
+Clique em "Select Kernel" (Canto superior direito) e escolha o ambiente virtual que você acabou de criar/ativar.
+
+Instalar as Dependências:
+
+Execute a primeira célula do notebook (Seção 0 - INSTALAÇÕES INICIAIS) para garantir que todas as bibliotecas necessárias estejam instaladas no ambiente.
+
+Executar o Projeto:
+
+Execute as células restantes em ordem sequencial (Seções 1 a 13) para:
+
+Importar bibliotecas.
+
+Baixar os artigos do arXiv.
+
+Realizar as três abordagens de classificação (Zero-Shot, Fine-Tuning e RAG).
+
+Exibir o relatório de conclusão.
+
+☁️ Opção 2: Rodar na Nuvem via Google Colab (Recomendado)
+Esta é a opção mais simples e garante acesso a recursos de GPU para otimizar o tempo de execução.
+
+Passos de Execução
+Acessar o Colab: Abra o Google Colab (https://colab.research.google.com/).
+
+Fazer Upload do Notebook:
+
+Clique em "File" (Arquivo) > "Upload notebook" (Fazer upload de notebook).
+
+Selecione e carregue o arquivo Trabalho_Final_Prof_Rogerio.ipynb.
+
+Ativar a GPU (Passo Obrigatório para Fine-Tuning):
+
+Vá em "Runtime" (Ambiente de execução) no menu superior.
+
+Selecione "Change runtime type" (Alterar tipo de ambiente de execução).
+
+Em "Hardware accelerator", escolha GPU.
+
+Clique em "Save" (Salvar).
+
+Executar Todas as Células:
+
+Vá em "Runtime" (Ambiente de execução) no menu superior.
+
+Selecione "Run all" (Executar tudo).
+
+O Colab irá instalar as dependências, baixar os dados do arXiv e executar todas as etapas da comparação de modelos. O processo de Fine-Tuning (Seção 8) será o mais demorado, mesmo com a GPU ativa.
