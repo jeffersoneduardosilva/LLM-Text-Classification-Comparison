@@ -123,7 +123,7 @@ Esta opção é ideal se você possui um ambiente Python configurado e, preferen
 
 2.  **Abrir e Conectar o Kernel:**
 
-    -   Abra o arquivo `Trabalho_Final_Prof_Rogerio.ipynb` no VS Code.
+    -   Abra o arquivo `LLM-Text-Classification-Comparison.ipynb` no VS Code.
 
     -   Clique em **"Select Kernel"** (Canto superior direito) e escolha o ambiente virtual que você acabou de criar/ativar.
 
@@ -157,7 +157,7 @@ Esta é a opção mais simples e garante acesso a recursos de GPU para otimizar 
 
     -   Clique em **"File"** (Arquivo) > **"Upload notebook"** (Fazer upload de notebook).
 
-    -   Selecione e carregue o arquivo `Trabalho_Final_Prof_Rogerio.ipynb`.
+    -   Selecione e carregue o arquivo `LLM-Text-Classification-Comparison.ipynb`.
 
 3.  **Ativar a GPU (Passo Obrigatório para Fine-Tuning):**
 
