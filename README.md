@@ -10,7 +10,7 @@ O principal objetivo é avaliar o **trade-off entre o custo de treinamento/adapt
 
 | Tipo de Conteúdo | Status | Link |
 | :--- | :--- | :--- |
-| **Apresentação do Projeto** | *Pendente* | [INSERIR_LINK_AQUI] |
+| **Apresentação do Projeto** | *Ok* | https://www.youtube.com/watch?v=gEGPN2p4jJE |
 
 ---
 
