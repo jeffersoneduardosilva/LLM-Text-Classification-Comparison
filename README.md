@@ -6,11 +6,13 @@ O principal objetivo é avaliar o **trade-off entre o custo de treinamento/adapt
 
 ---
 
-## 🔗 URL do Youtube / Apresentação do Projeto
+## 🔗 URL do Youtube / Apresentação do Projeto / Google Colab
 
 | Tipo de Conteúdo | Status | Link |
 | :--- | :--- | :--- |
-| **Apresentação do Projeto** | *Ok* | https://www.youtube.com/watch?v=gEGPN2p4jJE |
+| **Vídeo - Apresentação do Projeto** | *Ok* | https://www.youtube.com/watch?v=gEGPN2p4jJE |
+| **PPT - Apresentação do Projeto** | *Ok* | https://docs.google.com/presentation/d/1WgzgPgjs0JjJMgiDUMMo23HwTqZB8TGF3BCJC62DQKA/edit?slide=id.p#slide=id.p |
+| **Link Google Colab** | *Ok* | https://colab.research.google.com/drive/1Mn1hrKbGQkq_jUVwTSVa39ZpG_bi8fj2?usp=sharing#scrollTo=gf2pZJrB-Ccy |
 
 ---
 
